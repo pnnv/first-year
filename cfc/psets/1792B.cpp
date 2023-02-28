@@ -8,7 +8,7 @@ void solve() {
   int ans = 0;
 
   if(a != 0) {
-    ans += a + min(ali, bo)*2 + min(a + 1, abs(ali-bo) + d);
+    ans += a + min(ali, bo)*2 + min(a + 1, abs( ali-bo) + d);
   } else {
     ans++;
   }
