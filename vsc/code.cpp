@@ -1,30 +1,15 @@
 #include <bits/stdc++.h>
+#include <cctype>
 #include <cstdio>
 typedef long long ll;
 using namespace std;
 
 void solve() {
-  int n, s, r;
-  cin >> n >> s >> r;
-  vector<int> v;
-  v.push_back(s - r);
-  int k = s - r;
-  int i = n - 1;
-
-  while (r > 0) {
-    if((r-k) < (i-1)) {
-      k--;
-    } else {
-      v.push_back(k);
-      i--;
-      r -= k;
-    }
-  }
-
-  for (auto i : v) {
-    cout << i << " ";
-  }
-  cout << endl;
+  int n;
+  cin >> n;
+  for(int i = 0; i < n; i++) {
+    cout << "sex ";
+  } cout << endl;
 }
 
 int main() {
@@ -36,8 +21,8 @@ int main() {
 
   int t;
   cin >> t;
-  while(t--) {
+  while (t--) {
     solve();
   }
-  return 0;  
+  return 0;
 }

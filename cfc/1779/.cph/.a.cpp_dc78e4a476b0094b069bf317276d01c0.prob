@@ -1,0 +1,1 @@
+{"name":"Local: a","url":"/home/pranav/first-year/cfc/1779/a.cpp","tests":[{"id":1677691378325,"input":"6\n2\nLL\n2\nLR\n2\nRL\n2\nRR\n7\nLLRLLLR\n7\nRRLRRRL","output":"-1\n1\n0\n-1\n3\n6"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/home/pranav/first-year/cfc/1779/a.cpp","group":"local","local":true}
