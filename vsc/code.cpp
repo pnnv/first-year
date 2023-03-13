@@ -1,18 +1,11 @@
 #include <bits/stdc++.h>
-#include <cctype>
 #include <cstdio>
-typedef long long ll;
 using namespace std;
 
-void solve() {
-  int n;
-  cin >> n;
-  for(int i = 0; i < n; i++) {
-    cout << "sex ";
-  } cout << endl;
-}
+void solve() {}
 
-int main() {
+int main(void) {
+  
   freopen("io.txt", "r", stdin);
   freopen("op.txt", "w", stdout);
 
@@ -24,5 +17,4 @@ int main() {
   while (t--) {
     solve();
   }
-  return 0;
 }
